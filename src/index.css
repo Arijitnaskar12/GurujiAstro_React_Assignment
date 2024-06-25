@@ -1,0 +1,26 @@
+/* Ensure the form is centered and responsive */
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Highlight fields with errors */
+.is-invalid {
+  border-color: #dc3545;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+/* Make the form look better on mobile devices */
+@media (max-width: 576px) {
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
